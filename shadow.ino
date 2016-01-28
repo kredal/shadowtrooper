@@ -1,3 +1,13 @@
+/**************************************************************
+ * Shadow Stormtrooper addressable LED code
+ * Uses Neopixels or WS2812 LED strips
+ * Uses Adafruit Pro Trinket, 5V
+ * Uses Latch type wireless transmitter and reciever to 
+ * control the light settings. Found at:
+ * https://www.adafruit.com/products/1098
+ * Code by Josh Ward, TK-44678
+ * ************************************************************/
+ 
 #include "FastLED.h"
 
 #define NUM_STRIPS 9
